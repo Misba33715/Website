@@ -1,0 +1,96 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 3rem;
+    color: black;
+    font-family: "Lobster",cursive;
+}
+.navbar-brand:hover{
+    color:blueviolet;
+    transform: scale(1.1);
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Rubik",sans-serif;
+}
+.nav-link:hover{
+    color:blueviolet;
+    transform: scale(1.1);
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    margin-right: -35px;
+    font-family: "Rubik",sans-serif;
+    outline: none;
+    border: 2px solid rgb(248,26,92);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: palevioletred;
+    color: aliceblue;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.img-fluid{
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.main h1{
+font-size: 4rem;
+font-weight: 700;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 0%;
+text-align: center;
+background-color: aliceblue;
+}
+.image-fluid{
+    height: 300px;
+    width: 150%;
+}
+h1{
+    font-weight: 700;
+}
+H2{
+    background-color: black;
+    padding: 2%;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-size:large;
+}
+.row-flow{
+    background-color: black;
+    color: white;
+    padding: 10%;
+    border: 900%;
+    border-width: 100%;
+}
+.btn1:hover{
+    background-color: palevioletred;
+    transition: 0.5s;
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+.image{
+    height: 400px;
+    width: 100%;
+}
+.news p{
+    margin: 0;
+}
